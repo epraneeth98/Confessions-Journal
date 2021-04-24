@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ConfessionsJournal">
+        <activity android:name=".activities.AddNewConfessionActivity"></activity>
         <activity android:name=".activities.ShowAllConfessionsActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>

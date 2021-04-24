@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+    android:id="@+id/et_confession_text"
+    android:background="@drawable/edit_text_curved_corner"
+    android:hint="@string/confession_text"
+    android:inputType="textCapSentences|textMultiLine"
+    android:maxLines="8"
+        android:autofillHints="@string/auto"
+    android:minHeight="400dp"
+    android:textColor="@color/black"
+    android:textColorHint="@color/light_grey"
+    />
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:id="@+id/save_new_confession_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Save" />
+
+
+</LinearLayout>
